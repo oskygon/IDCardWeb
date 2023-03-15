@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:whitesmoke;
+    max-height: 500px;
+  }
+  p{
+    font-size: 0.75em;
+  }
+  
+  .card {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 15px;
+    box-shadow: 7px  13px 37px rgba(36, 35, 38, 0.6);
+ }
+ .card-body h5{
+    font-weight: 600;
+ }
+ button{
+    background-color: #a69486;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+
+ }
+ button:hover{
+    background-color: rgb(145, 146, 144);
+ }
